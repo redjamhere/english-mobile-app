@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      message: 'нихуя ты бубунчик'
+      message: 'Dictionary+'
     }
   }
 }
