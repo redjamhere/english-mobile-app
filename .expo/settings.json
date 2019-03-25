@@ -1,7 +1,7 @@
 {
+  "urlRandomness": "er-4ks",
   "hostType": "lan",
   "lanType": "ip",
   "dev": true,
-  "minify": false,
-  "urlRandomness": "9v-2m6"
+  "minify": false
 }
