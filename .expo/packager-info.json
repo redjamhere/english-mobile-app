@@ -1,10 +1,10 @@
 {
-  "packagerPort": 19001,
-  "packagerPid": 1068,
-  "expoServerPort": 19000,
-  "expoServerNgrokUrl": "https://er-4ks.anonymous.english-mobile-app.exp.direct",
-  "packagerNgrokUrl": "https://packager.er-4ks.anonymous.english-mobile-app.exp.direct",
-  "ngrokPid": 876,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerPort": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
   "webpackServerPort": null,
   "devToolsPort": 19002
 }

@@ -1,16 +1,11 @@
 <template>
   <view class="container">
-    <text class="text-color-primary">{{message}}</text>
-    <text>Мобильное приложение на JavaScript</text>
+    <text class="text-color-primary" :style="{fontSize: 24, textAlign: 'center'}">Мобильное приложение на {{message}}</text>
     <text-input
-        :style="{height: 40, width: 150, borderColor: 'gray', borderWidth: 1}"
+        :style="{height: 50, width: 200, borderColor: '#3498db', borderWidth: 1, borderRadius: 7, marginTop: 50, marginBottom: 50}"
         v-model="text"/>
-    <button
-      :on-press="checkLang"
-      title="Learn More"
-      color="#841584"
-      accessibility-label="Learn more about this purple button"
-    />
+    <button title="Определить язык" :on-press="checkLang"/>
+    <text :style="{marginTop: 50, fontSize: 18, color: '#7f8c8d'}">by Займанов Айнур</text>
     </view>
 </template>
  
@@ -18,7 +13,7 @@
 export default {
   data () {
     return {
-      message: 'Dictionary+',
+      message: 'JavaScript',
       text: ''
     }
   },
@@ -30,14 +25,20 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .container {
   background-color: white;
   align-items: center;
   justify-content: center;
   flex: 1;
 }
+
 .text-color-primary {
-  color: blue;
+  color: #3498db;
+}
+
+.my-button {
+  width: 400;
 }
 </style>
+
